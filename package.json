@@ -1,15 +1,36 @@
 {
-  "name": "my-series",
+  "name": "storytelling-reel-engine",
   "version": "1.0.0",
-  "description": "My Remotion video",
-  "repository": {},
-  "license": "UNLICENSED",
+  "description": "A reusable bilingual storytelling video generation engine built with Remotion, React, TypeScript and automated TTS.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jayprajapati-dev/storytelling-reel-engine.git"
+  },
+  "homepage": "https://github.com/jayprajapati-dev/storytelling-reel-engine#readme",
+  "bugs": {
+    "url": "https://github.com/jayprajapati-dev/storytelling-reel-engine/issues"
+  },
+  "license": "MIT",
+  "keywords": [
+    "remotion",
+    "react",
+    "typescript",
+    "video-automation",
+    "storytelling",
+    "text-to-speech",
+    "motion-graphics",
+    "instagram-reels",
+    "youtube-shorts",
+    "automated-video-generation"
+  ],
   "engines": {
     "node": "^20.19.0 || ^22.13.0 || >=24"
   },
   "private": true,
   "dependencies": {
+    "@remotion/captions": "4.0.540",
     "@remotion/cli": "4.0.540",
+    "@remotion/media": "4.0.540",
     "react": "19.3.1",
     "react-dom": "19.3.1",
     "remotion": "4.0.540"
@@ -26,7 +47,21 @@
     "dev": "remotion studio",
     "build": "remotion bundle",
     "upgrade": "remotion upgrade",
-    "lint": "eslint src && tsc"
+    "lint": "eslint src && tsc",
+    "audio": "python scripts/generate_audio.py",
+    "sfx": "python scripts/generate_sfx.py",
+    "render": "remotion render StoryReel out/episode1.mp4 --concurrency=2",
+    "render:preview": "remotion render StoryReel out/preview.mp4 --frames=0-300 --concurrency=2",
+    "audio:hindi": "python scripts/generate_hindi_audio.py",
+    "sfx:hindi": "python scripts/generate_hindi_sfx.py",
+    "render:hindi": "remotion render HindiReel out/episode1_hindi.mp4 --concurrency=2",
+    "render:hindi:preview": "remotion render HindiReel out/preview_hindi.mp4 --frames=0-300 --concurrency=2",
+    "render:logo": "remotion still ChannelLogo out/branding/1_PROFILE_PIC_INSTA_AND_YOUTUBE.png --frame=0",
+    "render:banner": "remotion still YouTubeBanner out/branding/2_YOUTUBE_BANNER_DESKTOP_MOBILE.png --frame=0",
+    "audio:hindi:ep02": "python scripts/generate_hindi_audio_ep02.py",
+    "sfx:hindi:ep02": "python scripts/generate_hindi_sfx_ep02.py",
+    "render:ep02:preview": "remotion render HindiReelEp02 out/episode2_preview.mp4 --frames=0-300 --concurrency=2",
+    "render:ep02": "remotion render HindiReelEp02 out/episode2_hindi.mp4 --concurrency=2"
   },
   "allowScripts": {
     "esbuild": false

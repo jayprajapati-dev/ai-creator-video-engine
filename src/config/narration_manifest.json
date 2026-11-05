@@ -1,0 +1,194 @@
+[
+  {
+    "sceneId": "scene_1_hook",
+    "audioFile": "audio/scene_1_hook.mp3",
+    "fullText": "The iron gate slams shut. Heavy padlocks lock outside. You are trapped inside.",
+    "sentences": [
+      {
+        "text": "The iron gate slams shut.",
+        "startMs": 100,
+        "endMs": 2538
+      },
+      {
+        "text": "Heavy padlocks lock outside.",
+        "startMs": 2488,
+        "endMs": 5143
+      },
+      {
+        "text": "You are trapped inside.",
+        "startMs": 5143,
+        "endMs": 7298
+      }
+    ]
+  },
+  {
+    "sceneId": "scene_2_mall",
+    "audioFile": "audio/scene_2_mall.mp3",
+    "fullText": "All escalators grind dead. Every neon sign cuts off. You stayed too late. Just one more game. Now nobody hears you.",
+    "sentences": [
+      {
+        "text": "All escalators grind dead.",
+        "startMs": 100,
+        "endMs": 2633
+      },
+      {
+        "text": "Every neon sign cuts off.",
+        "startMs": 2583,
+        "endMs": 5226
+      },
+      {
+        "text": "You stayed too late.",
+        "startMs": 5226,
+        "endMs": 7238
+      },
+      {
+        "text": "Just one more game.",
+        "startMs": 7238,
+        "endMs": 9190
+      },
+      {
+        "text": "Now nobody hears you.",
+        "startMs": 9190,
+        "endMs": 11321
+      }
+    ]
+  },
+  {
+    "sceneId": "scene_3_blackout",
+    "audioFile": "audio/scene_3_blackout.mp3",
+    "fullText": "You pull out your phone. One percent battery remains. Zero cell service bars. The screen dies completely. Main power grid cuts out. Total darkness swallows you.",
+    "sentences": [
+      {
+        "text": "You pull out your phone.",
+        "startMs": 100,
+        "endMs": 2133
+      },
+      {
+        "text": "One percent battery remains.",
+        "startMs": 2083,
+        "endMs": 4738
+      },
+      {
+        "text": "Zero cell service bars.",
+        "startMs": 4738,
+        "endMs": 7286
+      },
+      {
+        "text": "The screen dies completely.",
+        "startMs": 7286,
+        "endMs": 9714
+      },
+      {
+        "text": "Main power grid cuts out.",
+        "startMs": 9714,
+        "endMs": 12214
+      },
+      {
+        "text": "Total darkness swallows you.",
+        "startMs": 12214,
+        "endMs": 14607
+      }
+    ]
+  },
+  {
+    "sceneId": "scene_4_discovery",
+    "audioFile": "audio/scene_4_discovery.mp3",
+    "fullText": "Heavy boots thud upstairs. Someone is pacing above. You turn on flashlight. Floor three stands forbidden. A rusted door creaks open. The hallway breathes cold.",
+    "sentences": [
+      {
+        "text": "Heavy boots thud upstairs.",
+        "startMs": 100,
+        "endMs": 2717
+      },
+      {
+        "text": "Someone is pacing above.",
+        "startMs": 2667,
+        "endMs": 4988
+      },
+      {
+        "text": "You turn on flashlight.",
+        "startMs": 4988,
+        "endMs": 7226
+      },
+      {
+        "text": "Floor three stands forbidden.",
+        "startMs": 7226,
+        "endMs": 9738
+      },
+      {
+        "text": "A rusted door creaks open.",
+        "startMs": 9738,
+        "endMs": 12179
+      },
+      {
+        "text": "The hallway breathes cold.",
+        "startMs": 12179,
+        "endMs": 14524
+      }
+    ]
+  },
+  {
+    "sceneId": "scene_5_decision",
+    "audioFile": "audio/scene_5_decision.mp3",
+    "fullText": "You slip inside quietly. Old security monitors glow. One camera begins turning. The lens tracks you. A dark silhouette approaches.",
+    "sentences": [
+      {
+        "text": "You slip inside quietly.",
+        "startMs": 100,
+        "endMs": 2550
+      },
+      {
+        "text": "Old security monitors glow.",
+        "startMs": 2500,
+        "endMs": 5048
+      },
+      {
+        "text": "One camera begins turning.",
+        "startMs": 5048,
+        "endMs": 7393
+      },
+      {
+        "text": "The lens tracks you.",
+        "startMs": 7393,
+        "endMs": 9393
+      },
+      {
+        "text": "A dark silhouette approaches.",
+        "startMs": 9393,
+        "endMs": 11845
+      }
+    ]
+  },
+  {
+    "sceneId": "scene_6_cliffhanger",
+    "audioFile": "audio/scene_6_cliffhanger.mp3",
+    "fullText": "Footsteps sprint outside now. You have three seconds. Do you HIDE inside? Or RUN for exits? Vote in comments now!",
+    "sentences": [
+      {
+        "text": "Footsteps sprint outside now.",
+        "startMs": 100,
+        "endMs": 2705
+      },
+      {
+        "text": "You have three seconds.",
+        "startMs": 2655,
+        "endMs": 4810
+      },
+      {
+        "text": "Do you HIDE inside?",
+        "startMs": 4810,
+        "endMs": 6714
+      },
+      {
+        "text": "Or RUN for exits?",
+        "startMs": 6714,
+        "endMs": 8726
+      },
+      {
+        "text": "Vote in comments now!",
+        "startMs": 8726,
+        "endMs": 10845
+      }
+    ]
+  }
+]

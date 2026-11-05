@@ -1,0 +1,223 @@
+[
+  {
+    "sceneId": "h_scene_1_hook",
+    "audioFile": "audio/hindi/h_scene_1_hook.mp3",
+    "fullText": "मॉल बंद था... फिर ये लिफ्ट किसने चलाई?",
+    "sentences": [
+      {
+        "text": "मॉल बंद था...",
+        "startMs": 100,
+        "endMs": 2142
+      },
+      {
+        "text": "फिर ये लिफ्ट किसने चलाई?",
+        "startMs": 2092,
+        "endMs": 4803
+      }
+    ],
+    "totalMs": 4803
+  },
+  {
+    "sceneId": "h_scene_2_lockdown",
+    "audioFile": "audio/hindi/h_scene_2_lockdown.mp3",
+    "fullText": "आरव को लगा, सिक्योरिटी गार्ड उसे बाहर निकालना भूल गया। उसने दरवाज़ा खींचा। बंद था। फ़ोन उठाया। नो नेटवर्क।",
+    "sentences": [
+      {
+        "text": "आरव को लगा, सिक्योरिटी गार्ड उसे बाहर निकालना भूल गया।",
+        "startMs": 100,
+        "endMs": 5550
+      },
+      {
+        "text": "उसने दरवाज़ा खींचा।",
+        "startMs": 5500,
+        "endMs": 8105
+      },
+      {
+        "text": "बंद था।",
+        "startMs": 8105,
+        "endMs": 9829
+      },
+      {
+        "text": "फ़ोन उठाया।",
+        "startMs": 9829,
+        "endMs": 11882
+      },
+      {
+        "text": "नो नेटवर्क।",
+        "startMs": 11882,
+        "endMs": 13816
+      }
+    ],
+    "totalMs": 13816
+  },
+  {
+    "sceneId": "h_scene_3_elevator",
+    "audioFile": "audio/hindi/h_scene_3_elevator.mp3",
+    "fullText": "तभी... एक घंटी बजी। सामने की लिफ्ट अपने आप चलने लगी। G... एक... दो... तीन। दरवाज़े खुले। लिफ्ट खाली थी।",
+    "sentences": [
+      {
+        "text": "तभी...",
+        "startMs": 100,
+        "endMs": 1537
+      },
+      {
+        "text": "एक घंटी बजी।",
+        "startMs": 1487,
+        "endMs": 3803
+      },
+      {
+        "text": "सामने की लिफ्ट अपने आप चलने लगी।",
+        "startMs": 3803,
+        "endMs": 7487
+      },
+      {
+        "text": "G...",
+        "startMs": 7487,
+        "endMs": 8882
+      },
+      {
+        "text": "एक...",
+        "startMs": 8882,
+        "endMs": 10250
+      },
+      {
+        "text": "दो...",
+        "startMs": 10250,
+        "endMs": 11579
+      },
+      {
+        "text": "तीन।",
+        "startMs": 11579,
+        "endMs": 12974
+      },
+      {
+        "text": "दरवाज़े खुले।",
+        "startMs": 12974,
+        "endMs": 15105
+      },
+      {
+        "text": "लिफ्ट खाली थी।",
+        "startMs": 15105,
+        "endMs": 17316
+      }
+    ],
+    "totalMs": 17316
+  },
+  {
+    "sceneId": "h_scene_4_announcement",
+    "audioFile": "audio/hindi/h_scene_4_announcement.mp3",
+    "fullText": "फिर स्पीकर से आवाज़ आई... \"आरव...\" \"तुम वहाँ अकेले नहीं हो।\" एक-एक करके लाइटें बुझने लगीं।",
+    "sentences": [
+      {
+        "text": "फिर स्पीकर से आवाज़ आई...",
+        "startMs": 100,
+        "endMs": 3103
+      },
+      {
+        "text": "आरव...",
+        "startMs": 3053,
+        "endMs": 4461
+      },
+      {
+        "text": "तुम वहाँ अकेले नहीं हो।\" एक-एक करके लाइटें बुझने लगीं।",
+        "startMs": 4461,
+        "endMs": 9724
+      }
+    ],
+    "totalMs": 9724
+  },
+  {
+    "sceneId": "h_scene_5_cctv",
+    "audioFile": "audio/hindi/h_scene_5_cctv.mp3",
+    "fullText": "आरव सिक्योरिटी रूम में घुसा। उसने CCTV कैमरा सात खोला। स्क्रीन पर... वही गलियारा था। और उसके पीछे... कोई खड़ा था।",
+    "sentences": [
+      {
+        "text": "आरव सिक्योरिटी रूम में घुसा।",
+        "startMs": 100,
+        "endMs": 3168
+      },
+      {
+        "text": "उसने CCTV कैमरा सात खोला।",
+        "startMs": 3118,
+        "endMs": 6697
+      },
+      {
+        "text": "स्क्रीन पर...",
+        "startMs": 6697,
+        "endMs": 8461
+      },
+      {
+        "text": "वही गलियारा था।",
+        "startMs": 8461,
+        "endMs": 10868
+      },
+      {
+        "text": "और उसके पीछे...",
+        "startMs": 10868,
+        "endMs": 13053
+      },
+      {
+        "text": "कोई खड़ा था।",
+        "startMs": 13053,
+        "endMs": 15092
+      }
+    ],
+    "totalMs": 15092
+  },
+  {
+    "sceneId": "h_scene_6_twist",
+    "audioFile": "audio/hindi/h_scene_6_twist.mp3",
+    "fullText": "आरव ने पीछे देखा। कोई नहीं था। उसने स्क्रीन देखी... वो परछाईं और क़रीब आ गई थी।",
+    "sentences": [
+      {
+        "text": "आरव ने पीछे देखा।",
+        "startMs": 100,
+        "endMs": 2682
+      },
+      {
+        "text": "कोई नहीं था।",
+        "startMs": 2632,
+        "endMs": 4658
+      },
+      {
+        "text": "उसने स्क्रीन देखी...",
+        "startMs": 4658,
+        "endMs": 7132
+      },
+      {
+        "text": "वो परछाईं और क़रीब आ गई थी।",
+        "startMs": 7132,
+        "endMs": 10658
+      }
+    ],
+    "totalMs": 10658
+  },
+  {
+    "sceneId": "h_scene_7_cliffhanger",
+    "audioFile": "audio/hindi/h_scene_7_cliffhanger.mp3",
+    "fullText": "लिफ्ट की घंटी फिर बजी। फ्लोर: B1. तुम होते तो क्या करते? A या B?",
+    "sentences": [
+      {
+        "text": "लिफ्ट की घंटी फिर बजी।",
+        "startMs": 100,
+        "endMs": 2905
+      },
+      {
+        "text": "फ्लोर: B1.",
+        "startMs": 2855,
+        "endMs": 5039
+      },
+      {
+        "text": "तुम होते तो क्या करते?",
+        "startMs": 5039,
+        "endMs": 7592
+      },
+      {
+        "text": "A या B?",
+        "startMs": 7592,
+        "endMs": 9289
+      }
+    ],
+    "totalMs": 9289
+  }
+]

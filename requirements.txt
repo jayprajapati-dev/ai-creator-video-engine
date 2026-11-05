@@ -1,0 +1,4 @@
+# Python dependencies for Storytelling Reel Engine
+# Text-to-speech voice generation
+edge-tts>=6.1.12
+

@@ -1,0 +1,201 @@
+{
+  "series": "THE UNKNOWN CITY",
+  "episode": 2,
+  "titleHindi": "B1 पर आरव का इंतज़ार कौन कर रहा था?",
+  "titleEnglish": "Who was waiting for Aarav at B1?",
+  "voice": "hi-IN-MadhurNeural",
+  "scenes": [
+    {
+      "id": "ep2_scene_1_hook",
+      "title": "HOOK",
+      "audioFile": "audio/hindi/ep02/ep2_scene_1_hook.mp3",
+      "fullText": "B1 पर... कोई आरव का इंतज़ार कर रहा था।",
+      "durationSec": 5.15,
+      "durationFrames": 154,
+      "sentenceCount": 1,
+      "boundaries": [
+        {
+          "offset": 1000000,
+          "duration": 18500000,
+          "text": "B1 पर..."
+        },
+        {
+          "offset": 19000000,
+          "duration": 32500000,
+          "text": "कोई आरव का इंतज़ार कर रहा था।"
+        }
+      ]
+    },
+    {
+      "id": "ep2_scene_2_branch_a",
+      "title": "BRANCH_A_CCTV",
+      "audioFile": "audio/hindi/ep02/ep2_scene_2_branch_a.mp3",
+      "fullText": "आरव सिक्योरिटी रूम में घुसा। कैमरे में दिखा... लिफ्ट B1 पर खुली है! और एक गुप्त रास्ता नीचे जा रहा था।",
+      "durationSec": 11.72,
+      "durationFrames": 352,
+      "sentenceCount": 3,
+      "boundaries": [
+        {
+          "offset": 1000000,
+          "duration": 29125000,
+          "text": "आरव सिक्योरिटी रूम में घुसा।"
+        },
+        {
+          "offset": 29625000,
+          "duration": 20250000,
+          "text": "कैमरे में दिखा..."
+        },
+        {
+          "offset": 49875000,
+          "duration": 32125000,
+          "text": "लिफ्ट B1 पर खुली है!"
+        },
+        {
+          "offset": 82000000,
+          "duration": 35250000,
+          "text": "और एक गुप्त रास्ता नीचे जा रहा था।"
+        }
+      ]
+    },
+    {
+      "id": "ep2_scene_2_branch_b",
+      "title": "BRANCH_B_LIFT",
+      "audioFile": "audio/hindi/ep02/ep2_scene_2_branch_b.mp3",
+      "fullText": "आरव लिफ्ट में घुसा। दरवाज़े बंद। लिफ्ट सीधे B1 पर रुकी। और फुसफुसाहट आई: 'आरव... तुम वापस आ गए?'",
+      "durationSec": 12.16,
+      "durationFrames": 365,
+      "sentenceCount": 3,
+      "boundaries": [
+        {
+          "offset": 1000000,
+          "duration": 23375000,
+          "text": "आरव लिफ्ट में घुसा।"
+        },
+        {
+          "offset": 23875000,
+          "duration": 19500000,
+          "text": "दरवाज़े बंद।"
+        },
+        {
+          "offset": 43375000,
+          "duration": 29625000,
+          "text": "लिफ्ट सीधे B1 पर रुकी।"
+        },
+        {
+          "offset": 73000000,
+          "duration": 27875000,
+          "text": "और फुसफुसाहट आई: 'आरव..."
+        },
+        {
+          "offset": 100875000,
+          "duration": 20750000,
+          "text": "तुम वापस आ गए?"
+        }
+      ]
+    },
+    {
+      "id": "ep2_scene_3_basement",
+      "title": "BASEMENT_DISCOVERY",
+      "audioFile": "audio/hindi/ep02/ep2_scene_3_basement.mp3",
+      "fullText": "बेसमेंट में अजीब सन्नाटा था... जैसे यहाँ सालों से कोई इंसान नहीं आया।",
+      "durationSec": 7.22,
+      "durationFrames": 217,
+      "sentenceCount": 2,
+      "boundaries": [
+        {
+          "offset": 1000000,
+          "duration": 31875000,
+          "text": "बेसमेंट में अजीब सन्नाटा था..."
+        },
+        {
+          "offset": 32375000,
+          "duration": 39875000,
+          "text": "जैसे यहाँ सालों से कोई इंसान नहीं आया।"
+        }
+      ]
+    },
+    {
+      "id": "ep2_scene_4_register",
+      "title": "VISITOR_REGISTER",
+      "audioFile": "audio/hindi/ep02/ep2_scene_4_register.mp3",
+      "fullText": "डेस्क पर पुराना रजिस्टर खुला था। नाम: आरव। तारीख़: सत्रह साल पहले!",
+      "durationSec": 8.05,
+      "durationFrames": 242,
+      "sentenceCount": 3,
+      "boundaries": [
+        {
+          "offset": 1000000,
+          "duration": 33250000,
+          "text": "डेस्क पर पुराना रजिस्टर खुला था।"
+        },
+        {
+          "offset": 33750000,
+          "duration": 18375000,
+          "text": "नाम: आरव।"
+        },
+        {
+          "offset": 52125000,
+          "duration": 28375000,
+          "text": "तारीख़: सत्रह साल पहले!"
+        }
+      ]
+    },
+    {
+      "id": "ep2_scene_5_cctv",
+      "title": "CCTV_TWIST",
+      "audioFile": "audio/hindi/ep02/ep2_scene_5_cctv.mp3",
+      "fullText": "अचानक मॉनिटर चालू हुआ। स्क्रीन पर आरव के पीछे... कोई खड़ा था! उसने मुड़कर देखा... वहाँ कोई नहीं था!",
+      "durationSec": 12.18,
+      "durationFrames": 365,
+      "sentenceCount": 3,
+      "boundaries": [
+        {
+          "offset": 1000000,
+          "duration": 27625000,
+          "text": "अचानक मॉनिटर चालू हुआ।"
+        },
+        {
+          "offset": 28125000,
+          "duration": 27875000,
+          "text": "स्क्रीन पर आरव के पीछे..."
+        },
+        {
+          "offset": 56000000,
+          "duration": 19250000,
+          "text": "कोई खड़ा था!"
+        },
+        {
+          "offset": 75250000,
+          "duration": 23000000,
+          "text": "उसने मुड़कर देखा..."
+        },
+        {
+          "offset": 98250000,
+          "duration": 23500000,
+          "text": "वहाँ कोई नहीं था!"
+        }
+      ]
+    },
+    {
+      "id": "ep2_scene_6_cliffhanger",
+      "title": "CLIFFHANGER",
+      "audioFile": "audio/hindi/ep02/ep2_scene_6_cliffhanger.mp3",
+      "fullText": "मॉनिटर पर आया: अगला विज़िटर — आरव। फ़ोन पर मैसेज बजा: 'इस बार ऊपर मत जाना।'",
+      "durationSec": 7.86,
+      "durationFrames": 236,
+      "sentenceCount": 2,
+      "boundaries": [
+        {
+          "offset": 1000000,
+          "duration": 35250000,
+          "text": "मॉनिटर पर आया: अगला विज़िटर — आरव।"
+        },
+        {
+          "offset": 35750000,
+          "duration": 42875000,
+          "text": "फ़ोन पर मैसेज बजा: 'इस बार ऊपर मत जाना।"
+        }
+      ]
+    }
+  ]
+}
