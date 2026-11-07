@@ -55,9 +55,10 @@ Thank you for your interest in contributing to the **Storytelling Reel Engine**!
    git checkout -b feature/my-new-feature
    ```
 2. Commit your changes with a descriptive message.
-3. Test a quick preview render:
+3. Test a quick build or render:
    ```bash
-   npm run render:hindi:preview
+   npm run build
+   npm run render:reel:behind-scenes
    ```
 4. Push to your branch and open a Pull Request against `main`.
 
