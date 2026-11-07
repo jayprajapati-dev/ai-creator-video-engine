@@ -58,8 +58,8 @@ A dramatic, suspense-focused storytelling engine:
 
 ```bash
 # Clone the repository
-git clone https://github.com/jayprajapati-dev/storytelling-reel-engine.git
-cd storytelling-reel-engine
+git clone https://github.com/jayprajapati-dev/ai-creator-video-engine.git
+cd ai-creator-video-engine
 
 # Install Node.js dependencies
 npm install

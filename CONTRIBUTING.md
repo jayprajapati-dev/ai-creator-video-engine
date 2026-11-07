@@ -1,6 +1,6 @@
-# Contributing to Storytelling Reel Engine
+# Contributing to AI Creator Video Engine
 
-Thank you for your interest in contributing to the **Storytelling Reel Engine**! We welcome improvements to animation components, kinetic typography styles, audio synthesis algorithms, and documentation.
+Thank you for your interest in contributing to the **AI Creator Video Engine**! We welcome improvements to animation components, kinetic typography styles, audio synthesis algorithms, and documentation.
 
 ---
 
@@ -8,8 +8,8 @@ Thank you for your interest in contributing to the **Storytelling Reel Engine**!
 
 1. **Fork and clone the repository:**
    ```bash
-   git clone https://github.com/jayprajapati-dev/storytelling-reel-engine.git
-   cd storytelling-reel-engine
+   git clone https://github.com/jayprajapati-dev/ai-creator-video-engine.git
+   cd ai-creator-video-engine
    ```
 
 2. **Install Node.js dependencies:**

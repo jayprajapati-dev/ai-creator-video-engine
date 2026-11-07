@@ -63,3 +63,4 @@ The mascot automatically appears on **Hooks**, **Reactions**, **Verdicts**, and 
 * **`CtrlWala-CodingTutorial`** (`901 frames / 30.0s`): Building a full AI app in Python & Streamlit in 15 minutes.
 * **`CtrlWala-DeepSeekVsGpt4o`** (`1278 frames / 42.6s`): Detailed price, accuracy, and benchmark comparison.
 * **`CtrlWala-V0Builder`** (`904 frames / 30.1s`): Prompt-to-full-stack React application demonstration.
+

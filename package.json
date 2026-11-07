@@ -1,14 +1,14 @@
 {
-  "name": "storytelling-reel-engine",
+  "name": "ai-creator-video-engine",
   "version": "1.0.0",
-  "description": "A reusable bilingual storytelling video generation engine built with Remotion, React, TypeScript and automated TTS.",
+  "description": "A reusable AI creator video production engine built with Remotion, React, TypeScript, and automated TTS.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jayprajapati-dev/storytelling-reel-engine.git"
+    "url": "git+https://github.com/jayprajapati-dev/ai-creator-video-engine.git"
   },
-  "homepage": "https://github.com/jayprajapati-dev/storytelling-reel-engine#readme",
+  "homepage": "https://github.com/jayprajapati-dev/ai-creator-video-engine#readme",
   "bugs": {
-    "url": "https://github.com/jayprajapati-dev/storytelling-reel-engine/issues"
+    "url": "https://github.com/jayprajapati-dev/ai-creator-video-engine/issues"
   },
   "license": "MIT",
   "keywords": [
