@@ -1,0 +1,165 @@
+{
+  "reel": "behind_scenes",
+  "scenes": [
+    {
+      "id": "scene_1_hook",
+      "spokenText": "भाई! ये पूरा चैनल ना, एआई से बनता है! मैं बस डिसाइड करता हूँ। देखो कैसे!",
+      "displayText": "Yeh poora channel AI se banta hai, main bas decide karta hoon!",
+      "text": "Yeh poora channel AI se banta hai, main bas decide karta hoon!",
+      "label": "BEHIND THE SCENES",
+      "audioFile": "audio/ctrl_wala/behind_scenes/scene_1_hook.mp3",
+      "totalMs": 8633,
+      "durationFrames": 267,
+      "sentences": [
+        {
+          "text": "भाई!",
+          "startMs": 100,
+          "endMs": 1247
+        },
+        {
+          "text": "ये पूरा चैनल ना, एआई से बनता है!",
+          "startMs": 1197,
+          "endMs": 4693
+        },
+        {
+          "text": "मैं बस डिसाइड करता हूँ।",
+          "startMs": 4693,
+          "endMs": 6992
+        },
+        {
+          "text": "देखो कैसे!",
+          "startMs": 6992,
+          "endMs": 8633
+        }
+      ],
+      "startFrame": 0
+    },
+    {
+      "id": "scene_2_script",
+      "spokenText": "स्टेप वन: स्क्रिप्ट! क्लॉड थ्री पॉइंट फाइव को प्रॉम्प्ट दिया, और सेकंड्स में पूरी स्क्रिप्ट रेडी!",
+      "displayText": "Step 1: Script! Claude 3.5 Sonnet generates high-retention script",
+      "text": "Step 1: Script! Claude 3.5 Sonnet generates high-retention script",
+      "label": "STEP 1 • SCRIPT",
+      "audioFile": "audio/ctrl_wala/behind_scenes/scene_2_script.mp3",
+      "totalMs": 6758,
+      "durationFrames": 211,
+      "sentences": [
+        {
+          "text": "स्टेप वन: स्क्रिप्ट!",
+          "startMs": 100,
+          "endMs": 2042
+        },
+        {
+          "text": "क्लॉड थ्री पॉइंट फाइव को प्रॉम्प्ट दिया, और सेकंड्स में पूरी स्क्रिप्ट रेडी!",
+          "startMs": 1992,
+          "endMs": 6758
+        }
+      ],
+      "startFrame": 267
+    },
+    {
+      "id": "scene_3_voice",
+      "spokenText": "स्टेप टू: आवाज़! ओपन एआई वॉइस मॉडल से टेक्स लिए। खराब टेक्स रिजेक्ट, और बेस्ट टेक सेलेक्ट!",
+      "displayText": "Step 2: Awaaz! OpenAI model se 5 takes, reject bad & select best!",
+      "text": "Step 2: Awaaz! OpenAI model se 5 takes, reject bad & select best!",
+      "label": "STEP 2 • AWAAZ",
+      "audioFile": "audio/ctrl_wala/behind_scenes/scene_3_voice.mp3",
+      "totalMs": 7871,
+      "durationFrames": 245,
+      "sentences": [
+        {
+          "text": "स्टेप टू: आवाज़!",
+          "startMs": 100,
+          "endMs": 1861
+        },
+        {
+          "text": "ओपन एआई वॉइस मॉडल से टेक्स लिए।",
+          "startMs": 1811,
+          "endMs": 4767
+        },
+        {
+          "text": "खराब टेक्स रिजेक्ट, और बेस्ट टेक सेलेक्ट!",
+          "startMs": 4767,
+          "endMs": 7871
+        }
+      ],
+      "startFrame": 478
+    },
+    {
+      "id": "scene_4_caption",
+      "spokenText": "स्टेप थ्री: कैप्शन्स! व्हिस्पर हर एक वर्ड का एग्ज़ैक्ट टाइम निकाल के देता है।",
+      "displayText": "Step 3: Captions! Whisper word-level timestamps JSON",
+      "text": "Step 3: Captions! Whisper word-level timestamps JSON",
+      "label": "STEP 3 • CAPTIONS",
+      "audioFile": "audio/ctrl_wala/behind_scenes/scene_4_caption.mp3",
+      "totalMs": 6504,
+      "durationFrames": 204,
+      "sentences": [
+        {
+          "text": "स्टेप थ्री: कैप्शन्स!",
+          "startMs": 100,
+          "endMs": 2179
+        },
+        {
+          "text": "व्हिस्पर हर एक वर्ड का एग्ज़ैक्ट टाइम निकाल के देता है।",
+          "startMs": 2129,
+          "endMs": 6504
+        }
+      ],
+      "startFrame": 723
+    },
+    {
+      "id": "scene_5_anim",
+      "spokenText": "स्टेप फोर: एनिमेशन! रिमोशन यूज़ करके रिएक्ट कोड को सीधा वीडियो में बदल दिया!",
+      "displayText": "Step 4: Animation! Remotion code turns into real video frames",
+      "text": "Step 4: Animation! Remotion code turns into real video frames",
+      "label": "STEP 4 • ANIMATION",
+      "audioFile": "audio/ctrl_wala/behind_scenes/scene_5_anim.mp3",
+      "totalMs": 6176,
+      "durationFrames": 194,
+      "sentences": [
+        {
+          "text": "स्टेप फोर: एनिमेशन!",
+          "startMs": 100,
+          "endMs": 2222
+        },
+        {
+          "text": "रिमोशन यूज़ करके रिएक्ट कोड को सीधा वीडियो में बदल दिया!",
+          "startMs": 2172,
+          "endMs": 6176
+        }
+      ],
+      "startFrame": 927
+    },
+    {
+      "id": "scene_6_cta",
+      "spokenText": "और बूम! वीडियो रेडी। कमेंट करो कोड, और पूरा ऑटोमेशन प्रोजेक्ट तुम्हारे डीएम में!",
+      "displayText": "Comment CODE to get the full automation source code!",
+      "text": "Comment CODE to get the full automation source code!",
+      "label": "CALL TO ACTION",
+      "audioFile": "audio/ctrl_wala/behind_scenes/scene_6_cta.mp3",
+      "totalMs": 7044,
+      "durationFrames": 220,
+      "sentences": [
+        {
+          "text": "और बूम!",
+          "startMs": 100,
+          "endMs": 1311
+        },
+        {
+          "text": "वीडियो रेडी।",
+          "startMs": 1261,
+          "endMs": 2807
+        },
+        {
+          "text": "कमेंट करो कोड, और पूरा ऑटोमेशन प्रोजेक्ट तुम्हारे डीएम में!",
+          "startMs": 2807,
+          "endMs": 7044
+        }
+      ],
+      "startFrame": 1121
+    }
+  ],
+  "totalDurationFrames": 1341,
+  "totalDurationSec": 44.7
+}

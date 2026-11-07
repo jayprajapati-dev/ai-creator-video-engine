@@ -1,0 +1,89 @@
+{
+  "reel": "v0_builder",
+  "scenes": [
+    {
+      "id": "scene_1_hook",
+      "spokenText": "अब फ्रंटएंड डेवलपर्स की छुट्टी? सिर्फ एक प्रॉम्प्ट लिखो और पूरी नेक्स्ट जेएस वेबसाइट तैयार!",
+      "displayText": "अब Frontend Developers की छुट्टी? सिर्फ एक Prompt लिखो और पूरी Next.js वेबसाइट तैयार!",
+      "text": "अब Frontend Developers की छुट्टी? सिर्फ एक Prompt लिखो और पूरी Next.js वेबसाइट तैयार!",
+      "label": "FULL-STACK AI",
+      "audioFile": "audio/ctrl_wala/v0_builder/scene_1_hook.mp3",
+      "totalMs": 6928,
+      "durationFrames": 216,
+      "sentences": [
+        {
+          "text": "अब फ्रंटएंड डेवलपर्स की छुट्टी?",
+          "startMs": 100,
+          "endMs": 2794
+        },
+        {
+          "text": "सिर्फ एक प्रॉम्प्ट लिखो और पूरी नेक्स्ट जेएस वेबसाइट तैयार!",
+          "startMs": 2744,
+          "endMs": 6928
+        }
+      ],
+      "startFrame": 0
+    },
+    {
+      "id": "scene_2_before_after",
+      "spokenText": "एक रफ स्केच या टेक्स्ट प्रॉम्प्ट दो, और वी-ज़ीरो उसे कुछ ही सेकंड्स में फुल्ली फंक्शनल रिएक्ट ऐप में बदल देता है!",
+      "displayText": "एक रफ sketch या text prompt दो, और V0 उसे कुछ ही seconds में fully functional React app में बदल देता है!",
+      "text": "एक रफ sketch या text prompt दो, और V0 उसे कुछ ही seconds में fully functional React app में बदल देता है!",
+      "label": "TRANSFORMATION",
+      "audioFile": "audio/ctrl_wala/v0_builder/scene_2_before_after.mp3",
+      "totalMs": 7709,
+      "durationFrames": 240,
+      "sentences": [
+        {
+          "text": "एक रफ स्केच या टेक्स्ट प्रॉम्प्ट दो, और वी-ज़ीरो उसे कुछ ही सेकंड्स में फुल्ली फंक्शनल रिएक्ट ऐप में बदल देता है!",
+          "startMs": 100,
+          "endMs": 7709
+        }
+      ],
+      "startFrame": 216
+    },
+    {
+      "id": "scene_3_browser_inspect",
+      "spokenText": "क्लीन टेलविंड सीएसएस, ल्यूसाइड आइकन्स और शैडसीन यूआई कंपोनेंट्स! कोई स्पैगेटी कोड नहीं, बिल्कुल प्रोडक्शन रेडी!",
+      "displayText": "Clean Tailwind CSS, Lucide Icons और Shadcn UI components! कोई spaghetti code नहीं, बिल्कुल production ready!",
+      "text": "Clean Tailwind CSS, Lucide Icons और Shadcn UI components! कोई spaghetti code नहीं, बिल्कुल production ready!",
+      "label": "CODE QUALITY",
+      "audioFile": "audio/ctrl_wala/v0_builder/scene_3_browser_inspect.mp3",
+      "totalMs": 8782,
+      "durationFrames": 272,
+      "sentences": [
+        {
+          "text": "क्लीन टेलविंड सीएसएस, ल्यूसाइड आइकन्स और शैडसीन यूआई कंपोनेंट्स!",
+          "startMs": 100,
+          "endMs": 5177
+        },
+        {
+          "text": "कोई स्पैगेटी कोड नहीं, बिल्कुल प्रोडक्शन रेडी!",
+          "startMs": 5127,
+          "endMs": 8782
+        }
+      ],
+      "startFrame": 456
+    },
+    {
+      "id": "scene_4_cta",
+      "spokenText": "कमेंट करो वी-ज़ीरो, और मेरे टॉप फाइव सीक्रेट यूआई प्रॉम्प्ट्स तुम्हारे इनबॉक्स में!",
+      "displayText": "Comment करो V0, और मेरे Top 5 secret UI prompts तुम्हारे inbox में!",
+      "text": "Comment करो V0, और मेरे Top 5 secret UI prompts तुम्हारे inbox में!",
+      "label": "GET PROMPTS",
+      "audioFile": "audio/ctrl_wala/v0_builder/scene_4_cta.mp3",
+      "totalMs": 5580,
+      "durationFrames": 176,
+      "sentences": [
+        {
+          "text": "कमेंट करो वी-ज़ीरो, और मेरे टॉप फाइव सीक्रेट यूआई प्रॉम्प्ट्स तुम्हारे इनबॉक्स में!",
+          "startMs": 100,
+          "endMs": 5580
+        }
+      ],
+      "startFrame": 728
+    }
+  ],
+  "totalDurationFrames": 904,
+  "totalDurationSec": 30.13
+}

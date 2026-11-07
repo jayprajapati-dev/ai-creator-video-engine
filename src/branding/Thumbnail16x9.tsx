@@ -1,9 +1,10 @@
 import React from "react";
-import { Aarav } from "../hindi/Aarav";
+import { Img, staticFile } from "remotion";
+import { FONTS } from "../ctrl_wala/designSystem";
 
 /**
- * 16:9 High-CTR YouTube Thumbnail (1920 x 1080 px)
- * Designed for maximum click-through-rate on YouTube homepage & search!
+ * High-CTR YouTube Video Thumbnail — 1920 x 1080 (16:9 Standard)
+ * Designed for Maximum Click-Through Rate for Tech & AI Audiences
  */
 export const Thumbnail16x9: React.FC = () => {
   return (
@@ -11,159 +12,142 @@ export const Thumbnail16x9: React.FC = () => {
       style={{
         width: 1920,
         height: 1080,
-        backgroundColor: "#03060C",
+        backgroundColor: "#050811",
         position: "relative",
         overflow: "hidden",
-        fontFamily: "'Noto Sans Devanagari', 'Mangal', system-ui, sans-serif",
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "space-between",
+        padding: "0 100px",
+        fontFamily: FONTS.display,
       }}
     >
-      <svg
-        width="1920"
-        height="1080"
-        viewBox="0 0 1920 1080"
-        style={{ position: "absolute", inset: 0 }}
-      >
-        <defs>
-          <radialGradient id="tBg" cx="50%" cy="50%" r="60%">
-            <stop offset="0%" stopColor="#0B1A2E" stopOpacity="0.9" />
-            <stop offset="100%" stopColor="#020408" stopOpacity="1" />
-          </radialGradient>
-          <linearGradient id="tRedGrad" x1="0" y1="0" x2="1" y2="0">
-            <stop offset="0%" stopColor="#EF4444" />
-            <stop offset="100%" stopColor="#DC2626" />
-          </linearGradient>
-        </defs>
+      {/* Background Cyber Grid */}
+      <div
+        style={{
+          position: "absolute",
+          inset: 0,
+          backgroundImage: `
+            radial-gradient(circle at 75% 50%, rgba(139, 92, 246, 0.25) 0%, transparent 55%),
+            radial-gradient(circle at 25% 50%, rgba(0, 242, 254, 0.2) 0%, transparent 55%)
+          `,
+        }}
+      />
 
-        <rect width="1920" height="1080" fill="url(#tBg)" />
+      {/* Left: Punchy Hook Text & Badges */}
+      <div style={{ maxWidth: 1000, position: "relative", zIndex: 10 }}>
+        {/* Category Pill */}
+        <div
+          style={{
+            display: "inline-flex",
+            alignItems: "center",
+            gap: 12,
+            background: "rgba(0, 242, 254, 0.15)",
+            border: "2px solid #00F2FE",
+            borderRadius: 999,
+            padding: "8px 24px",
+            color: "#00F2FE",
+            fontSize: 24,
+            fontWeight: 800,
+            letterSpacing: "0.1em",
+            textTransform: "uppercase",
+            marginBottom: 28,
+            boxShadow: "0 0 20px rgba(0, 242, 254, 0.4)",
+          }}
+        >
+          <span>🔥</span> NEW AI BREAKTHROUGH
+        </div>
 
-        {/* Mall Corridor Background */}
-        <polygon points="0,1080 960,350 1920,1080" fill="#040A14" />
-        <line x1="960" y1="350" x2="0" y2="1080" stroke="#0C1E34" strokeWidth="2" />
-        <line x1="960" y1="350" x2="1920" y2="1080" stroke="#0C1E34" strokeWidth="2" />
-
-        {/* ── Right side: CCTV Monitor CAM-07 with Shadow ────── */}
-        <g transform="translate(1080, 160)">
-          {/* Bezel */}
-          <rect width="760" height="740" rx="16" fill="#02070A" stroke="#00D4D4" strokeWidth="5" />
-          <rect x="14" y="14" width="732" height="712" rx="10" fill="#061608" />
-
-          {/* CCTV Grid scanlines & corridor */}
-          <polygon points="14,726 380,240 746,726" fill="#081E0C" />
-          <line x1="380" y1="240" x2="14" y2="726" stroke="#0E3014" strokeWidth="2" />
-          <line x1="380" y1="240" x2="746" y2="726" stroke="#0E3014" strokeWidth="2" />
-
-          {/* Aarav Figure on CCTV screen */}
-          <g transform="translate(240, 380)" opacity="0.75">
-            <ellipse cx="40" cy="70" rx="20" ry="38" fill="#0E2A14" />
-            <circle cx="40" cy="22" r="16" fill="#0E2A14" />
-          </g>
-
-          {/* Dark Looming Shadow Figure Behind Him */}
-          <g transform="translate(180, 260)">
-            <ellipse cx="60" cy="140" rx="42" ry="75" fill="#000000" />
-            <circle cx="60" cy="38" r="32" fill="#000000" />
-            {/* Piercing Red Eyes */}
-            <circle cx="48" cy="36" r="6" fill="#EF4444" />
-            <circle cx="72" cy="36" r="6" fill="#EF4444" />
-          </g>
-
-          {/* CAM 07 Header & REC */}
-          <rect x="24" y="24" width="130" height="34" rx="4" fill="rgba(0,0,0,0.6)" />
-          <text x="34" y="48" fill="#22C55E" fontSize="20" fontFamily="monospace" fontWeight="900">
-            CAM 07
-          </text>
-          <circle cx="700" cy="40" r="10" fill="#DC2626" />
-          <text x="635" y="46" fill="#EF4444" fontSize="18" fontFamily="monospace" fontWeight="800">
-            REC
-          </text>
-
-          {/* Warning Banner on Monitor */}
-          <rect x="14" y="650" width="732" height="76" rx="6" fill="rgba(220,38,38,0.7)" />
-          <text
-            x="380"
-            y="700"
-            textAnchor="middle"
-            fill="#FFFFFF"
-            fontSize="30"
-            fontFamily="monospace"
-            fontWeight="900"
-            letterSpacing="3"
+        {/* Massive Headline */}
+        <div
+          style={{
+            fontSize: 108,
+            fontWeight: 900,
+            lineHeight: 1.05,
+            letterSpacing: "-0.04em",
+            color: "#FFFFFF",
+            textShadow: "0 10px 40px rgba(0,0,0,0.8)",
+            marginBottom: 24,
+          }}
+        >
+          DEEPSEEK V3 <br />
+          <span
+            style={{
+              background: "linear-gradient(90deg, #FCD34D 0%, #F59E0B 100%)",
+              WebkitBackgroundClip: "text",
+              WebkitTextFillColor: "transparent",
+            }}
           >
-            ⚠ MOTION DETECTED: BEHIND YOU
-          </text>
-        </g>
+            OpenAI DESTROYED?
+          </span>
+        </div>
 
-        {/* ── Left side: High-Impact Hindi Typography & Badges ─ */}
-        <g transform="translate(100, 160)">
-          {/* Series badge */}
-          <rect x="0" y="0" width="280" height="42" rx="8" fill="#DC2626" />
-          <text x="140" y="28" textAnchor="middle" fill="#FFFFFF" fontSize="20" fontWeight="900" letterSpacing="3">
-            THE UNKNOWN CITY #01
-          </text>
+        {/* Stat Pill */}
+        <div style={{ display: "flex", gap: 20 }}>
+          <div
+            style={{
+              background: "#10B981",
+              color: "#000000",
+              fontWeight: 900,
+              fontSize: 32,
+              padding: "12px 28px",
+              borderRadius: 16,
+              boxShadow: "0 0 30px rgba(16, 185, 129, 0.5)",
+            }}
+          >
+            95% CHEAPER
+          </div>
+          <div
+            style={{
+              background: "rgba(255, 255, 255, 0.1)",
+              border: "1px solid rgba(255, 255, 255, 0.2)",
+              color: "#FFFFFF",
+              fontWeight: 700,
+              fontSize: 32,
+              padding: "12px 28px",
+              borderRadius: 16,
+              backdropFilter: "blur(10px)",
+            }}
+          >
+            100% OPEN WEIGHTS
+          </div>
+        </div>
+      </div>
 
-          {/* Time Badge */}
-          <rect x="300" y="0" width="160" height="42" rx="8" fill="#061220" stroke="#00D4D4" strokeWidth="2" />
-          <text x="380" y="28" textAnchor="middle" fill="#00D4D4" fontSize="20" fontFamily="monospace" fontWeight="900">
-            12:07 AM
-          </text>
-
-          {/* Hook Question Text (Massive & Catchy) */}
-          <g transform="translate(0, 160)">
-            <text
-              x="0"
-              y="0"
-              fill="#FFFFFF"
-              fontSize="78"
-              fontWeight="900"
-              filter="drop-shadow(0 6px 12px rgba(0,0,0,0.8))"
-            >
-              मॉल बंद था...
-            </text>
-
-            {/* Glowing Red Highlight Box */}
-            <rect x="0" y="40" width="850" height="120" rx="16" fill="url(#tRedGrad)" />
-            <text
-              x="20"
-              y="126"
-              fill="#FFFFFF"
-              fontSize="82"
-              fontWeight="900"
-              filter="drop-shadow(0 4px 8px rgba(0,0,0,0.5))"
-            >
-              फिर LIFT किसने चलाई?
-            </text>
-          </g>
-
-          {/* Warning Sub-box */}
-          <g transform="translate(0, 480)">
-            <rect x="0" y="0" width="580" height="85" rx="12" fill="#08182A" stroke="#00D4D4" strokeWidth="2.5" />
-            <text x="30" y="55" fill="#00D4D4" fontSize="34" fontWeight="800">
-              🚨 सच जानकर होश उड़ जाएंगे!
-            </text>
-          </g>
-
-          {/* Audience Vote Sticker */}
-          <g transform="translate(0, 610)">
-            <rect x="0" y="0" width="460" height="60" rx="10" fill="#030810" stroke="#EF4444" strokeWidth="2" />
-            <text x="230" y="40" textAnchor="middle" fill="#F1F5F9" fontSize="24" fontWeight="800">
-              VOTE: HIDE या RUN? 😱
-            </text>
-          </g>
-        </g>
-
-        {/* Aarav Character in Forefront (Shocked Pose) */}
+      {/* Right: Giant Mascot Avatar */}
+      <div
+        style={{
+          position: "relative",
+          zIndex: 5,
+          width: 650,
+          height: 650,
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+        }}
+      >
         <div
           style={{
             position: "absolute",
-            bottom: 40,
-            left: 720,
-            zIndex: 30,
+            width: 600,
+            height: 600,
+            borderRadius: "50%",
+            border: "8px solid #8B5CF6",
+            boxShadow: "0 0 80px rgba(139, 92, 246, 0.8)",
+            background: "#080D1A",
+            overflow: "hidden",
           }}
         >
-          <Aarav pose="shock" scale={1.7} facing="left" />
+          <Img
+            src={staticFile("ctrl_wala/logo.png")}
+            style={{
+              width: "100%",
+              height: "100%",
+              objectFit: "contain",
+            }}
+          />
         </div>
-      </svg>
+      </div>
     </div>
   );
 };
-

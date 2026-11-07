@@ -61,7 +61,16 @@
     "audio:hindi:ep02": "python scripts/generate_hindi_audio_ep02.py",
     "sfx:hindi:ep02": "python scripts/generate_hindi_sfx_ep02.py",
     "render:ep02:preview": "remotion render HindiReelEp02 out/episode2_preview.mp4 --frames=0-300 --concurrency=2",
-    "render:ep02": "remotion render HindiReelEp02 out/episode2_hindi.mp4 --concurrency=2"
+    "render:ep02": "remotion render HindiReelEp02 out/episode2_hindi.mp4 --concurrency=2",
+    "audio:ctrlwala": "python scripts/generate_ctrlwala_audio.py",
+    "render:ctrlwala:preview": "remotion render CtrlWalaPhase1 out/ctrl_wala_phase1_preview.mp4 --frames=0-300 --concurrency=2",
+    "render:ctrlwala": "remotion render CtrlWalaPhase1 out/ctrl_wala_phase1.mp4 --concurrency=2",
+    "render:reel:deepseek": "remotion render CtrlWala-DeepSeekVsGpt4o out/ctrl_wala_deepseek_vs_gpt4o.mp4 --concurrency=2",
+    "render:reel:v0": "remotion render CtrlWala-V0Builder out/ctrl_wala_v0_builder.mp4 --concurrency=2",
+    "render:reel:claude": "remotion render CtrlWala-ClaudePrompts out/ctrl_wala_claude_prompts.mp4 --concurrency=2",
+    "render:reel:behind-scenes": "remotion render CtrlWala-BehindScenes out/ctrl_wala_behind_scenes.mp4 --concurrency=2",
+    "render:reel:claude-tut": "remotion render CtrlWala-ClaudeTutorial out/ctrl_wala_claude_tutorial.mp4 --concurrency=2",
+    "render:reel:coding-tut": "remotion render CtrlWala-CodingTutorial out/ctrl_wala_coding_tutorial.mp4 --concurrency=2"
   },
   "allowScripts": {
     "esbuild": false

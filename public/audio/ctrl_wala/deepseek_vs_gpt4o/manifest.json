@@ -1,0 +1,112 @@
+{
+  "reel": "deepseek_vs_gpt4o",
+  "scenes": [
+    {
+      "id": "scene_1_hook",
+      "spokenText": "ओपन एआई का खेल खत्म? डीपसीक वी थ्री ने एआई की पूरी दुनिया को हिला दिया है!",
+      "displayText": "OpenAI का खेल खत्म? DeepSeek V3 ने AI की पूरी दुनिया को हिला दिया है!",
+      "text": "OpenAI का खेल खत्म? DeepSeek V3 ने AI की पूरी दुनिया को हिला दिया है!",
+      "label": "SHOCKING BREAKTHROUGH",
+      "audioFile": "audio/ctrl_wala/deepseek_vs_gpt4o/scene_1_hook.mp3",
+      "totalMs": 6621,
+      "durationFrames": 207,
+      "sentences": [
+        {
+          "text": "ओपन एआई का खेल खत्म?",
+          "startMs": 100,
+          "endMs": 2402
+        },
+        {
+          "text": "डीपसीक वी थ्री ने एआई की पूरी दुनिया को हिला दिया है!",
+          "startMs": 2352,
+          "endMs": 6621
+        }
+      ],
+      "startFrame": 0
+    },
+    {
+      "id": "scene_2_split_compare",
+      "spokenText": "जीपीटी फोर-ओ का वन मिलियन टोकन्स टू पॉइंट फिफ्टी डॉलर्स का है, जबकि डीपसीक सिर्फ फोर्टीन सेंट्स! यानी पूरे नाइन्टी फाइव परसेंट सस्ता!",
+      "displayText": "GPT-4o का 1M Tokens $2.50 का है, जबकि DeepSeek सिर्फ $0.14! यानी पूरे 95% सस्ता!",
+      "text": "GPT-4o का 1M Tokens $2.50 का है, जबकि DeepSeek सिर्फ $0.14! यानी पूरे 95% सस्ता!",
+      "label": "COST COMPARISON",
+      "audioFile": "audio/ctrl_wala/deepseek_vs_gpt4o/scene_2_split_compare.mp3",
+      "totalMs": 9820,
+      "durationFrames": 303,
+      "sentences": [
+        {
+          "text": "जीपीटी फोर-ओ का वन मिलियन टोकन्स टू पॉइंट फिफ्टी डॉलर्स का है, जबकि डीपसीक सिर्फ फोर्टीन सेंट्स!",
+          "startMs": 100,
+          "endMs": 6872
+        },
+        {
+          "text": "यानी पूरे नाइन्टी फाइव परसेंट सस्ता!",
+          "startMs": 6822,
+          "endMs": 9820
+        }
+      ],
+      "startFrame": 207
+    },
+    {
+      "id": "scene_3_benchmarks",
+      "spokenText": "कोडिंग बेंचमार्क्स में सिक्स हंड्रेड सेवेंटी वन बिलियन पैरामीटर्स का ये बीस्ट जीपीटी फोर-ओ और क्लाउड थ्री पॉइंट फाइव को बराबर टक्कर दे रहा है!",
+      "displayText": "Coding benchmarks में 671B parameters का ये beast GPT-4o और Claude 3.5 को बराबर टक्कर दे रहा है!",
+      "text": "Coding benchmarks में 671B parameters का ये beast GPT-4o और Claude 3.5 को बराबर टक्कर दे रहा है!",
+      "label": "ACCURACY BENCHMARK",
+      "audioFile": "audio/ctrl_wala/deepseek_vs_gpt4o/scene_3_benchmarks.mp3",
+      "totalMs": 9150,
+      "durationFrames": 283,
+      "sentences": [
+        {
+          "text": "कोडिंग बेंचमार्क्स में सिक्स हंड्रेड सेवेंटी वन बिलियन पैरामीटर्स का ये बीस्ट जीपीटी फोर-ओ और क्लाउड थ्री पॉइंट फाइव को बराबर टक्कर दे रहा है!",
+          "startMs": 100,
+          "endMs": 9150
+        }
+      ],
+      "startFrame": 510
+    },
+    {
+      "id": "scene_4_mascot_verdict",
+      "spokenText": "और सबसे बड़ी बात—यह पूरी तरह ओपन वेट्स है! अपने लोकल सर्वर पर बिना किसी एपीआई कॉस्ट के रन करो।",
+      "displayText": "और सबसे बड़ी बात—यह पूरी तरह Open Weights है! अपने लोकल सर्वर पर बिना API कॉस्ट के रन करो।",
+      "text": "और सबसे बड़ी बात—यह पूरी तरह Open Weights है! अपने लोकल सर्वर पर बिना API कॉस्ट के रन करो।",
+      "label": "CTRL WALA VERDICT",
+      "audioFile": "audio/ctrl_wala/deepseek_vs_gpt4o/scene_4_mascot_verdict.mp3",
+      "totalMs": 8347,
+      "durationFrames": 259,
+      "sentences": [
+        {
+          "text": "और सबसे बड़ी बात—यह पूरी तरह ओपन वेट्स है!",
+          "startMs": 100,
+          "endMs": 4245
+        },
+        {
+          "text": "अपने लोकल सर्वर पर बिना किसी एपीआई कॉस्ट के रन करो।",
+          "startMs": 4195,
+          "endMs": 8347
+        }
+      ],
+      "startFrame": 793
+    },
+    {
+      "id": "scene_5_cta",
+      "spokenText": "कमेंट करो डीपसीक, और मैं तुम्हें इसका लोकल सेटअप गाइड और एपीआई कीज का लिंक तुरंत डीएम कर दूंगा!",
+      "displayText": "Comment करो DEEPSEEK, और मैं तुम्हें इसका Local Setup Guide और API keys तुरंत DM कर दूंगा!",
+      "text": "Comment करो DEEPSEEK, और मैं तुम्हें इसका Local Setup Guide और API keys तुरंत DM कर दूंगा!",
+      "label": "CALL TO ACTION",
+      "audioFile": "audio/ctrl_wala/deepseek_vs_gpt4o/scene_5_cta.mp3",
+      "totalMs": 7243,
+      "durationFrames": 226,
+      "sentences": [
+        {
+          "text": "कमेंट करो डीपसीक, और मैं तुम्हें इसका लोकल सेटअप गाइड और एपीआई कीज का लिंक तुरंत डीएम कर दूंगा!",
+          "startMs": 100,
+          "endMs": 7243
+        }
+      ],
+      "startFrame": 1052
+    }
+  ],
+  "totalDurationFrames": 1278,
+  "totalDurationSec": 42.6
+}

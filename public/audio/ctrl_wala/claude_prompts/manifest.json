@@ -1,0 +1,122 @@
+{
+  "reel": "claude_prompts",
+  "scenes": [
+    {
+      "id": "scene_1_hook",
+      "spokenText": "क्लॉड थ्री पॉइंट फाइव यूज़ करते हो? ये तीन सीक्रेट प्रॉम्प्ट्स तुम्हारी कोडिंग स्पीड टेन-एक्स कर देंगे!",
+      "displayText": "Claude 3.5 use karte ho? 3 secret prompts speed 10X kar denge!",
+      "text": "Claude 3.5 use karte ho? 3 secret prompts speed 10X kar denge!",
+      "label": "10X DEV HACKS",
+      "audioFile": "audio/ctrl_wala/claude_prompts/scene_1_hook.mp3",
+      "totalMs": 7129,
+      "durationFrames": 222,
+      "sentences": [
+        {
+          "text": "क्लॉड थ्री पॉइंट फाइव यूज़ करते हो?",
+          "startMs": 100,
+          "endMs": 2772
+        },
+        {
+          "text": "ये तीन सीक्रेट प्रॉम्प्ट्स तुम्हारी कोडिंग स्पीड टेन-एक्स कर देंगे!",
+          "startMs": 2722,
+          "endMs": 7129
+        }
+      ],
+      "startFrame": 0
+    },
+    {
+      "id": "scene_2_prompt_arch",
+      "spokenText": "प्रॉम्प्ट वन: सिस्टम आर्किटेक्ट! कोड से पहले डेटाबेस स्कीमा और एपीआई डिज़ाइन कर देता है।",
+      "displayText": "Prompt #1: System Architect Prompt! Schema aur API contract design.",
+      "text": "Prompt #1: System Architect Prompt! Schema aur API contract design.",
+      "label": "PROMPT 01",
+      "audioFile": "audio/ctrl_wala/claude_prompts/scene_2_prompt_arch.mp3",
+      "totalMs": 7161,
+      "durationFrames": 223,
+      "sentences": [
+        {
+          "text": "प्रॉम्प्ट वन: सिस्टम आर्किटेक्ट!",
+          "startMs": 100,
+          "endMs": 2465
+        },
+        {
+          "text": "कोड से पहले डेटाबेस स्कीमा और एपीआई डिज़ाइन कर देता है।",
+          "startMs": 2415,
+          "endMs": 7161
+        }
+      ],
+      "startFrame": 222
+    },
+    {
+      "id": "scene_3_prompt_debug",
+      "spokenText": "प्रॉम्प्ट टू: रूट कॉज डीबगर! एरर पेस्ट करो, तीन सेकंड्स में एग्ज़ैक्ट बग फिक्स हाज़िर।",
+      "displayText": "Prompt #2: Root Cause Debugger! Error paste karo, exact fix haazir.",
+      "text": "Prompt #2: Root Cause Debugger! Error paste karo, exact fix haazir.",
+      "label": "PROMPT 02",
+      "audioFile": "audio/ctrl_wala/claude_prompts/scene_3_prompt_debug.mp3",
+      "totalMs": 6589,
+      "durationFrames": 206,
+      "sentences": [
+        {
+          "text": "प्रॉम्प्ट टू: रूट कॉज डीबगर!",
+          "startMs": 100,
+          "endMs": 2497
+        },
+        {
+          "text": "एरर पेस्ट करो, तीन सेकंड्स में एग्ज़ैक्ट बग फिक्स हाज़िर।",
+          "startMs": 2447,
+          "endMs": 6589
+        }
+      ],
+      "startFrame": 445
+    },
+    {
+      "id": "scene_4_prompt_tests",
+      "spokenText": "प्रॉम्प्ट थ्री: एज केस टेस्ट जनरेटर! सौ परसेंट टेस्ट कवरेज विथ ज़ीरो एफर्ट!",
+      "displayText": "Prompt #3: Edge Case Test Generator! 100% test coverage.",
+      "text": "Prompt #3: Edge Case Test Generator! 100% test coverage.",
+      "label": "PROMPT 03",
+      "audioFile": "audio/ctrl_wala/claude_prompts/scene_4_prompt_tests.mp3",
+      "totalMs": 6282,
+      "durationFrames": 197,
+      "sentences": [
+        {
+          "text": "प्रॉम्प्ट थ्री: एज केस टेस्ट जनरेटर!",
+          "startMs": 100,
+          "endMs": 3143
+        },
+        {
+          "text": "सौ परसेंट टेस्ट कवरेज विथ ज़ीरो एफर्ट!",
+          "startMs": 3093,
+          "endMs": 6282
+        }
+      ],
+      "startFrame": 651
+    },
+    {
+      "id": "scene_5_cta",
+      "spokenText": "कमेंट करो प्रॉम्प्ट, और पूरी चीटशीट तुरंत डीएम में पाओ! फॉलो कंट्रोल वाला!",
+      "displayText": "Comment करो PROMPT, और cheatsheet DM mein pao! Follow @CTRL_WALA",
+      "text": "Comment करो PROMPT, और cheatsheet DM mein pao! Follow @CTRL_WALA",
+      "label": "GET CHEATSHEET",
+      "audioFile": "audio/ctrl_wala/claude_prompts/scene_5_cta.mp3",
+      "totalMs": 6123,
+      "durationFrames": 192,
+      "sentences": [
+        {
+          "text": "कमेंट करो प्रॉम्प्ट, और पूरी चीटशीट तुरंत डीएम में पाओ!",
+          "startMs": 100,
+          "endMs": 4192
+        },
+        {
+          "text": "फॉलो कंट्रोल वाला!",
+          "startMs": 4142,
+          "endMs": 6123
+        }
+      ],
+      "startFrame": 848
+    }
+  ],
+  "totalDurationFrames": 1040,
+  "totalDurationSec": 34.67
+}

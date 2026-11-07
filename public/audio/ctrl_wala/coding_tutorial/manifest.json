@@ -1,0 +1,107 @@
+{
+  "reel": "coding_tutorial",
+  "scenes": [
+    {
+      "id": "scene_1_hook",
+      "spokenText": "पायथन में अपना पहला एआई ऐप बनाओ सिर्फ पंद्रह मिनट में, बिना किसी कोडिंग एक्सपीरियंस के!",
+      "displayText": "Python mein AI App banao sirf 15 minutes mein!",
+      "text": "Python mein AI App banao sirf 15 minutes mein!",
+      "label": "PYTHON AI APP",
+      "audioFile": "audio/ctrl_wala/coding_tutorial/scene_1_hook.mp3",
+      "totalMs": 6512,
+      "durationFrames": 204,
+      "sentences": [
+        {
+          "text": "पायथन में अपना पहला एआई ऐप बनाओ सिर्फ पंद्रह मिनट में, बिना किसी कोडिंग एक्सपीरियंस के!",
+          "startMs": 100,
+          "endMs": 6512
+        }
+      ],
+      "startFrame": 0
+    },
+    {
+      "id": "scene_2_code",
+      "spokenText": "स्टेप वन: सिर्फ पंद्रह लाइन्स का कोड! ओपन एआई और स्ट्रीमलिट कनेक्ट कर दो।",
+      "displayText": "Step 1: Sirf 15 lines! OpenAI aur Streamlit connect karo.",
+      "text": "Step 1: Sirf 15 lines! OpenAI aur Streamlit connect karo.",
+      "label": "STEP 1 • CODE",
+      "audioFile": "audio/ctrl_wala/coding_tutorial/scene_2_code.mp3",
+      "totalMs": 5975,
+      "durationFrames": 188,
+      "sentences": [
+        {
+          "text": "स्टेप वन: सिर्फ पंद्रह लाइन्स का कोड!",
+          "startMs": 100,
+          "endMs": 2953
+        },
+        {
+          "text": "ओपन एआई और स्ट्रीमलिट कनेक्ट कर दो।",
+          "startMs": 2903,
+          "endMs": 5975
+        }
+      ],
+      "startFrame": 204
+    },
+    {
+      "id": "scene_3_run",
+      "spokenText": "स्टेप टू: टर्मिनल में रन करो स्ट्रीमलिट, और ऐप तुरंत लोकलहोस्ट पर लाइव!",
+      "displayText": "Step 2: Terminal mein run karo streamlit, aur app live!",
+      "text": "Step 2: Terminal mein run karo streamlit, aur app live!",
+      "label": "STEP 2 • RUN",
+      "audioFile": "audio/ctrl_wala/coding_tutorial/scene_3_run.mp3",
+      "totalMs": 5061,
+      "durationFrames": 160,
+      "sentences": [
+        {
+          "text": "स्टेप टू: टर्मिनल में रन करो स्ट्रीमलिट, और ऐप तुरंत लोकलहोस्ट पर लाइव!",
+          "startMs": 100,
+          "endMs": 5061
+        }
+      ],
+      "startFrame": 392
+    },
+    {
+      "id": "scene_4_result",
+      "spokenText": "स्टेप थ्री: पहले दो घंटे लगते थे, अब पंद्रह मिनट में पूरा ऐप तैयार!",
+      "displayText": "Step 3: Pehle 2 ghante lagte the, ab 15 min mein app ready!",
+      "text": "Step 3: Pehle 2 ghante lagte the, ab 15 min mein app ready!",
+      "label": "STEP 3 • RESULT",
+      "audioFile": "audio/ctrl_wala/coding_tutorial/scene_4_result.mp3",
+      "totalMs": 5198,
+      "durationFrames": 164,
+      "sentences": [
+        {
+          "text": "स्टेप थ्री: पहले दो घंटे लगते थे, अब पंद्रह मिनट में पूरा ऐप तैयार!",
+          "startMs": 100,
+          "endMs": 5198
+        }
+      ],
+      "startFrame": 552
+    },
+    {
+      "id": "scene_5_cta",
+      "spokenText": "कमेंट करो पायथन, और पूरा कोड तुम्हारे डीएम में! फॉलो कंट्रोल वाला!",
+      "displayText": "Comment PYTHON, aur poora code DM kar denge! Follow @CTRL_WALA",
+      "text": "Comment PYTHON, aur poora code DM kar denge! Follow @CTRL_WALA",
+      "label": "CALL TO ACTION",
+      "audioFile": "audio/ctrl_wala/coding_tutorial/scene_5_cta.mp3",
+      "totalMs": 5869,
+      "durationFrames": 185,
+      "sentences": [
+        {
+          "text": "कमेंट करो पायथन, और पूरा कोड तुम्हारे डीएम में!",
+          "startMs": 100,
+          "endMs": 3938
+        },
+        {
+          "text": "फॉलो कंट्रोल वाला!",
+          "startMs": 3888,
+          "endMs": 5869
+        }
+      ],
+      "startFrame": 716
+    }
+  ],
+  "totalDurationFrames": 901,
+  "totalDurationSec": 30.03
+}

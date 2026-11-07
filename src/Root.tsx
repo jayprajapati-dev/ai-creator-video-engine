@@ -1,47 +1,62 @@
 import React from "react";
 import { Composition } from "remotion";
-import { StoryReel } from "./Composition";
-import { episode1Config } from "./config/episode1";
-import { HindiReel } from "./hindi/HindiReel";
-import { HindiReelEp02 } from "./hindi/ep02/HindiReelEp02";
 import { ChannelLogo, YouTubeBanner } from "./branding/ChannelBranding";
 import { Thumbnail16x9 } from "./branding/Thumbnail16x9";
+import { CtrlWalaPhase1 } from "./ctrl_wala/CtrlWalaPhase1";
+import { ReelDeepSeekVsGpt4o } from "./ctrl_wala/compositions/ReelDeepSeekVsGpt4o";
+import { ReelV0Builder } from "./ctrl_wala/compositions/ReelV0Builder";
+import { ReelClaudePrompts } from "./ctrl_wala/compositions/ReelClaudePrompts";
+import { TechRapReel, TOTAL_RAP_FRAMES } from "./ctrl_wala/experiments/TechRapReel";
+// ─── NEW: CTRL_WALA Light Theme Reels (Techstackbro style) ───────────────────
+import {
+  ReelClaudeTutorial,
+  CLAUDE_TUTORIAL_DURATION,
+} from "./ctrl_wala/compositions/ReelClaudeTutorial";
+import {
+  ReelCodingTutorial,
+  CODING_TUTORIAL_DURATION,
+} from "./ctrl_wala/compositions/ReelCodingTutorial";
+import {
+  ReelBehindScenes,
+  BEHIND_SCENES_DURATION,
+} from "./ctrl_wala/compositions/ReelBehindScenes";
 
 export const RemotionRoot: React.FC = () => {
   return (
     <>
-      {/* Original English Episode: Night Stories Ep.01 */}
-      <Composition
-        id="StoryReel"
-        component={StoryReel}
-        durationInFrames={1800}
-        fps={30}
-        width={1080}
-        height={1920}
-        defaultProps={{
-          config: episode1Config,
-        }}
-      />
+      {/* ─── OFFICIAL CTRL_WALA CONTENT-AWARE DYNAMIC REELS ────────────────── */}
 
-      {/* THE UNKNOWN CITY — Hindi Episode 01: Mall Band Tha... Phir Lift Kisne Chalayi? */}
+      {/* Reel 01: DeepSeek V3 vs GPT-4o — Benchmark & Split Comparison */}
       <Composition
-        id="HindiReel"
-        component={HindiReel}
-        durationInFrames={1800}
+        id="CtrlWala-DeepSeekVsGpt4o"
+        component={ReelDeepSeekVsGpt4o}
+        durationInFrames={1278}
         fps={30}
         width={1080}
         height={1920}
       />
 
-      {/* THE UNKNOWN CITY — Hindi Episode 02: B1 Par Aarav Ka Intezar Kaun Kar Raha Tha? */}
+      {/* Reel 02: V0 Full-Stack Web App Builder — Before/After Transformation & Browser */}
       <Composition
-        id="HindiReelEp02"
-        component={HindiReelEp02}
-        durationInFrames={1800}
+        id="CtrlWala-V0Builder"
+        component={ReelV0Builder}
+        durationInFrames={913}
         fps={30}
         width={1080}
         height={1920}
       />
+
+      {/* Reel 03: 3 Claude 3.5 Sonnet Prompts — Mentor Walkthrough & Numbered Tip Cards */}
+      <Composition
+        id="CtrlWala-ClaudePrompts"
+        component={ReelClaudePrompts}
+        durationInFrames={1208}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+
+      {/* ─── BRANDING ASSETS & PHASE 1 SHOWCASE ───────────────────────────── */}
 
       {/* Channel Profile Picture (Logo) — 800 x 800 (1:1 Circular Crop Safe) */}
       <Composition
@@ -71,6 +86,58 @@ export const RemotionRoot: React.FC = () => {
         fps={30}
         width={1920}
         height={1080}
+      />
+
+      {/* CTRL_WALA Phase 1 — Motion Graphics Component Library */}
+      <Composition
+        id="CtrlWalaPhase1"
+        component={CtrlWalaPhase1}
+        durationInFrames={1800}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+
+      {/* ─── NEW CTRL_WALA LIGHT THEME REELS (Techstackbro style) ──────────── */}
+
+      {/* New Reel 01: Claude Tutorial — 3 Prompts Jo Coding Speed 10x Kar Denge */}
+      <Composition
+        id="CtrlWala-ClaudeTutorial"
+        component={ReelClaudeTutorial}
+        durationInFrames={CLAUDE_TUTORIAL_DURATION}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+
+      {/* New Reel 02: Coding Tutorial — Python AI App in 15 Minutes */}
+      <Composition
+        id="CtrlWala-CodingTutorial"
+        component={ReelCodingTutorial}
+        durationInFrames={CODING_TUTORIAL_DURATION}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+
+      {/* New Reel 03: Behind the Scenes — AI se Poora Channel Banta Hai */}
+      <Composition
+        id="CtrlWala-BehindScenes"
+        component={ReelBehindScenes}
+        durationInFrames={BEHIND_SCENES_DURATION}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+
+      {/* ─── SAVED EXPERIMENT: Tech Rap Demo ───────────────────────────────── */}
+      <Composition
+        id="CtrlWala-TechRap-Demo"
+        component={TechRapReel}
+        durationInFrames={TOTAL_RAP_FRAMES}
+        fps={30}
+        width={1080}
+        height={1920}
       />
     </>
   );
